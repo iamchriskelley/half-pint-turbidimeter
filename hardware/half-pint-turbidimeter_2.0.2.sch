@@ -2006,124 +2006,6 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <hole x="-1.27" y="0" drill="1.6"/>
 <hole x="1.27" y="0" drill="1.6"/>
 </package>
-<package name="1X01_LONGPAD">
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="LUXEON-PAD">
-<smd name="P$1" x="0" y="0" dx="3.9" dy="2.4" layer="1" roundness="25"/>
-<text x="-1.5" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SMTSO-256-ET">
-<wire x1="-2.286" y1="1.016" x2="-1.016" y2="2.286" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="1.016" y1="2.286" x2="2.286" y2="1.016" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="2.286" y1="-1.016" x2="1.016" y2="-2.286" width="1.016" layer="31" curve="-42.075022"/>
-<wire x1="-1.016" y1="-2.286" x2="-2.286" y2="-1.016" width="1.016" layer="31" curve="-42.075022"/>
-<circle x="0" y="0" radius="1.016" width="0.127" layer="51"/>
-<pad name="P$1" x="0" y="0" drill="3.81" diameter="6.1976"/>
-</package>
-<package name="SMTRA-256-8-6">
-<pad name="P$1" x="-1.9939" y="0" drill="1.3462"/>
-<pad name="P$2" x="1.9939" y="0" drill="1.3462"/>
-<smd name="P$3" x="0" y="0" dx="6.6548" dy="4.3434" layer="1" cream="no"/>
-<text x="1.27" y="2.54" size="0.4064" layer="27">&gt;Value</text>
-<text x="-2.54" y="2.54" size="0.4064" layer="25">&gt;Name</text>
-<rectangle x1="-3.302" y1="0.762" x2="3.302" y2="2.032" layer="31"/>
-<rectangle x1="-1.016" y1="0.508" x2="1.016" y2="0.762" layer="31"/>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="-0.762" layer="31"/>
-<rectangle x1="-3.302" y1="-2.032" x2="3.302" y2="-0.762" layer="31"/>
-<rectangle x1="-1.016" y1="-0.762" x2="1.016" y2="-0.508" layer="31"/>
-<rectangle x1="2.794" y1="0.508" x2="3.302" y2="0.762" layer="31"/>
-<rectangle x1="2.794" y1="-0.762" x2="3.302" y2="-0.508" layer="31"/>
-<rectangle x1="-3.302" y1="-0.762" x2="-2.794" y2="-0.508" layer="31"/>
-<rectangle x1="-3.302" y1="0.508" x2="-2.794" y2="0.762" layer="31"/>
-</package>
-<package name="1X01NS">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-</package>
-<package name="1X01">
-<wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="1.1938" y="1.8288" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="1X01_2MM">
-<pad name="1" x="0" y="0" drill="2" diameter="3.302" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="1X01_OFFSET">
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="offset" rot="R90"/>
-<text x="1.1938" y="1.8288" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="PAD-1.5X4.5">
-<smd name="P$1" x="0" y="0" dx="1.5" dy="2" layer="1"/>
-</package>
-<package name="1X01_POGOPIN_HOLE_LARGE">
-<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="0.8128" rot="R90" thermals="no"/>
-<hole x="0" y="0" drill="1.5494"/>
-</package>
-<package name="1X01_POGOPIN_HOLE_0.58">
-<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="0.8128" rot="R90" thermals="no"/>
-<hole x="0" y="0" drill="1.4732"/>
-</package>
-<package name="SNAP-FEMALE">
-<pad name="1" x="0" y="0" drill="2.921" diameter="4.572"/>
-<polygon width="0.254" layer="1">
-<vertex x="-4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="4.0005" curve="-90.002865"/>
-<vertex x="4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="-4.0005" curve="-89.997136"/>
-</polygon>
-<polygon width="0.3556" layer="29">
-<vertex x="-4.0005" y="0" curve="-90.002865"/>
-<vertex x="0" y="4.0005" curve="-90.002865"/>
-<vertex x="4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="-4.0005" curve="-89.997136"/>
-</polygon>
-<polygon width="0.3556" layer="31">
-<vertex x="-4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="4.0005" curve="-90.002865"/>
-<vertex x="4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="-4.0005" curve="-89.997136"/>
-</polygon>
-<polygon width="0.3556" layer="41">
-<vertex x="-4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="4.0005" curve="-90.002865"/>
-<vertex x="4.0005" y="0" curve="-89.997136"/>
-<vertex x="0" y="-4.0005" curve="-89.997136"/>
-</polygon>
-</package>
-<package name="SNAP-MALE">
-<smd name="2" x="0" y="0" dx="7.62" dy="7.62" layer="1" roundness="100"/>
-</package>
-<package name="SPRING-CONNECTOR">
-<smd name="P$2" x="0" y="0" dx="7.112" dy="7.112" layer="1" roundness="100"/>
-<text x="-1.3462" y="5.6388" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="SCREWTERMINAL-3.5MM-2">
 <wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
 <wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
@@ -3237,16 +3119,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="M01">
-<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="M06">
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
@@ -3798,127 +3670,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="M01" prefix="JP">
-<description>&lt;b&gt;Header 1&lt;/b&gt;
-Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
-<gates>
-<gate name="G$1" symbol="M01" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH_LONGPAD" package="1X01_LONGPAD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="LUXEON-PAD">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMTSO-256-ET" package="SMTSO-256-ET">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMTRA-256-8-6" package="SMTRA-256-8-6">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMDNS" package="1X01NS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="1X01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_2MM" package="1X01_2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="OFFSET" package="1X01_OFFSET">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-4.5X1.5" package="PAD-1.5X4.5">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGOPIN_HOLE_LARGE" package="1X01_POGOPIN_HOLE_LARGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGOPIN_HOLE_0.58" package="1X01_POGOPIN_HOLE_0.58">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SNAP-FEMALE" package="SNAP-FEMALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SNAP-MALE" package="SNAP-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SPRING-CONN" package="SPRING-CONNECTOR">
-<connects>
-<connect gate="G$1" pin="1" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4849,6 +4600,54 @@ Standard 8.5x11 US Letter frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="awqua_eagle_library">
+<packages>
+<package name="ISP-SMD-6PIN">
+<smd name="P6" x="-2.54" y="-1.905" dx="1.27" dy="2.54" layer="1"/>
+<smd name="P4" x="0" y="-1.905" dx="1.27" dy="2.54" layer="1"/>
+<smd name="P2" x="2.54" y="-1.905" dx="1.27" dy="2.54" layer="1"/>
+<smd name="P1" x="2.54" y="1.905" dx="1.27" dy="2.54" layer="1"/>
+<smd name="P3" x="0" y="1.905" dx="1.27" dy="2.54" layer="1"/>
+<smd name="P5" x="-2.54" y="1.905" dx="1.27" dy="2.54" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ISP-SMD-6PIN">
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="RST" x="5.08" y="22.86" length="middle" rot="R270"/>
+<pin name="SCK" x="10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="MISO" x="15.24" y="22.86" length="middle" rot="R270"/>
+<pin name="VCC" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="MOSI" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="GND" x="5.08" y="-5.08" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ISP-SMD-6PIN">
+<gates>
+<gate name="G$1" symbol="ISP-SMD-6PIN" x="-10.16" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="ISP-SMD-6PIN">
+<connects>
+<connect gate="G$1" pin="GND" pad="P6"/>
+<connect gate="G$1" pin="MISO" pad="P1"/>
+<connect gate="G$1" pin="MOSI" pad="P4"/>
+<connect gate="G$1" pin="RST" pad="P5"/>
+<connect gate="G$1" pin="SCK" pad="P3"/>
+<connect gate="G$1" pin="VCC" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4875,13 +4674,13 @@ Standard 8.5x11 US Letter frame</description>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100n"/>
 <part name="C12" library="SparkFun" deviceset="CAP" device="0603-CAP" value="OPT_1uF"/>
 <part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M06" device="SMD_MALE"/>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M06" device="SMD_MALE"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="U$1" library="awqua_eagle_library" deviceset="ISP-SMD-6PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4912,13 +4711,13 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="C7" gate="G$1" x="58.42" y="76.2" rot="R270"/>
 <instance part="C12" gate="G$1" x="175.26" y="124.46"/>
 <instance part="C9" gate="G$1" x="50.8" y="53.34" rot="R180"/>
-<instance part="JP7" gate="G$1" x="76.2" y="137.16"/>
 <instance part="JP1" gate="G$1" x="162.56" y="121.92"/>
 <instance part="JP10" gate="G$1" x="78.74" y="116.84"/>
 <instance part="JP11" gate="G$1" x="121.92" y="119.38" rot="R180"/>
 <instance part="JP3" gate="G$1" x="20.32" y="96.52"/>
 <instance part="JP9" gate="G$1" x="231.14" y="99.06" rot="R180"/>
 <instance part="JP5" gate="G$1" x="213.36" y="132.08" rot="R180"/>
+<instance part="U$1" gate="G$1" x="119.38" y="142.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4979,6 +4778,11 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <label x="30.48" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="132.08" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
+<label x="129.54" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Q2" class="0">
@@ -5087,6 +4891,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="33.02" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="132.08" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
+<label x="129.54" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX" class="0">
 <segment>
@@ -5139,9 +4948,9 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP4" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
-<label x="88.9" y="137.16" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="RST"/>
+<wire x1="91.44" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+<label x="86.36" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -5155,6 +4964,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="93.98" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
 <label x="88.9" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="MISO"/>
+<wire x1="91.44" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
+<label x="86.36" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -5167,6 +4981,11 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="93.98" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <label x="88.9" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<wire x1="132.08" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<label x="129.54" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -5178,6 +4997,11 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP10" gate="G$1" pin="6"/>
 <wire x1="93.98" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
 <label x="88.9" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SCK"/>
+<wire x1="91.44" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
+<label x="86.36" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
