@@ -1,4 +1,6 @@
 #The half-pint turbidimeter
 ###An awesome water quality monitor about the size of a fist.
 
-words and illustrations coming soon
+Written description coming soon. For now, here's a photo.
+
+![alt tag](./documentation/half-pint-turbidimeter_photo.jpg)
