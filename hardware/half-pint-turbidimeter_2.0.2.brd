@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -781,7 +781,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C3" library="SparkFun" package="0603-CAP" value="100n" x="38.608" y="24.13" smashed="yes" rot="R90">
 <attribute name="VALUE" x="38.1" y="25.781" size="0.4064" layer="25" font="vector"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="20.955" y="-7.62"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="22.479" y="-17.272"/>
 <element name="C6" library="SparkFun" package="0603-CAP" value="100n" x="25.4" y="1.778" smashed="yes" rot="R180">
 <attribute name="VALUE" x="27.559" y="1.524" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
