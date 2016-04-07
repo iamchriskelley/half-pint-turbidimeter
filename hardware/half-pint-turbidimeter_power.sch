@@ -2591,6 +2591,73 @@ Standard 8.5x11 US Letter frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMA-DIODE">
+<description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
+Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140</description>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE-SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MBRA140" prefix="D">
+<description>40V, 1A Schottky rectifier&lt;br&gt;
+SMA/DO-214AC package&lt;br&gt;
+DIO-08053</description>
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08053"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2622,7 +2689,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="+OUT-" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="2.2UF" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="R330"/>
-<part name="D2" library="SparkFun" deviceset="LED" device="0603" value="GREEN"/>
+<part name="D2" library="SparkFun" deviceset="LED" device="0603" value="GRN"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$3" library="awqua_eagle_library" deviceset="USBMICRO-DX4R005JJ2" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -2632,6 +2699,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="MBRA140" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2642,7 +2710,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="GND1" gate="1" x="157.48" y="114.3"/>
 <instance part="D1" gate="G$1" x="111.76" y="88.9" rot="R90"/>
 <instance part="R1" gate="G$1" x="104.14" y="88.9" rot="R180"/>
-<instance part="GND15" gate="1" x="86.36" y="132.08"/>
+<instance part="GND15" gate="1" x="76.2" y="111.76"/>
 <instance part="GND14" gate="1" x="144.78" y="104.14"/>
 <instance part="GND17" gate="1" x="88.9" y="106.68"/>
 <instance part="GND18" gate="1" x="129.54" y="111.76"/>
@@ -2664,15 +2732,16 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="R2" gate="G$1" x="127" y="88.9"/>
 <instance part="D2" gate="G$1" x="137.16" y="88.9" rot="R90"/>
 <instance part="GND3" gate="1" x="144.78" y="86.36"/>
-<instance part="U$3" gate="G$1" x="50.8" y="114.3"/>
-<instance part="GND4" gate="1" x="53.34" y="144.78" rot="R180"/>
-<instance part="GND5" gate="1" x="55.88" y="144.78" rot="R180"/>
-<instance part="GND6" gate="1" x="63.5" y="144.78" rot="R180"/>
-<instance part="GND7" gate="1" x="63.5" y="109.22"/>
-<instance part="GND8" gate="1" x="55.88" y="109.22"/>
-<instance part="GND9" gate="1" x="53.34" y="109.22"/>
+<instance part="U$3" gate="G$1" x="40.64" y="114.3"/>
+<instance part="GND4" gate="1" x="43.18" y="144.78" rot="R180"/>
+<instance part="GND5" gate="1" x="45.72" y="144.78" rot="R180"/>
+<instance part="GND6" gate="1" x="53.34" y="144.78" rot="R180"/>
+<instance part="GND7" gate="1" x="53.34" y="109.22"/>
+<instance part="GND8" gate="1" x="45.72" y="109.22"/>
+<instance part="GND9" gate="1" x="43.18" y="109.22"/>
 <instance part="FRAME1" gate="G$1" x="22.86" y="30.48"/>
 <instance part="FRAME1" gate="V" x="170.18" y="30.48"/>
+<instance part="D3" gate="G$1" x="76.2" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -2698,8 +2767,9 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="86.36" y1="134.62" x2="78.74" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="114.3" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="121.92" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
@@ -2818,23 +2888,6 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<wire x1="88.9" y1="116.84" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="88.9" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
-<junction x="88.9" y="119.38"/>
-<junction x="96.52" y="119.38"/>
-<label x="91.44" y="119.38" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="BYP"/>
@@ -2857,6 +2910,32 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="134.62" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="68.58" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<wire x1="88.9" y1="116.84" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="88.9" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
+<junction x="88.9" y="119.38"/>
+<junction x="96.52" y="119.38"/>
+<label x="91.44" y="119.38" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="78.74" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
