@@ -145,7 +145,7 @@
 <text x="3.048" y="2.286" size="0.6858" layer="26" rot="MR90">awqua 
 pocket turbidimeter
 tsl230rd / tsl267 brd
-v1.0 2016/03/14
+v1.0.1 2016/03/14
 github.com/awqua</text>
 </plain>
 <libraries>
@@ -530,16 +530,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$6" pad="GND"/>
 <contactref element="C5" pad="2"/>
 <polygon width="0.254" layer="1">
-<vertex x="-3.556" y="42.926"/>
-<vertex x="50.292" y="43.18"/>
-<vertex x="50.8" y="-0.762"/>
+<vertex x="-2.794" y="17.272"/>
+<vertex x="17.272" y="17.272"/>
+<vertex x="17.018" y="-1.016"/>
 <vertex x="-3.048" y="-1.016"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="-2.54" y="43.434"/>
-<vertex x="50.038" y="44.196"/>
-<vertex x="50.292" y="-0.762"/>
-<vertex x="-2.54" y="-0.254"/>
+<vertex x="-1.778" y="18.034"/>
+<vertex x="18.034" y="18.288"/>
+<vertex x="17.526" y="-1.27"/>
+<vertex x="-2.794" y="-1.778"/>
 </polygon>
 <contactref element="JP1" pad="1"/>
 <contactref element="JP2" pad="1"/>
